@@ -1,5 +1,5 @@
 class World
-  def initalize(rows, columns)
+  def initialize(rows, columns)
     @rows = rows
     @columns = columns
     @cells = []
@@ -8,4 +8,9 @@ class World
 end
 
 class Cell
+  def initialize
+    @life_state = false # cell starts dead
+    @coordinates = []
+    @neigbors = []
+  end
 end
