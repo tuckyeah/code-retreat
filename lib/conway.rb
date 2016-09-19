@@ -11,6 +11,15 @@ class Cell
   def initialize
     @life_state = false # cell starts dead
     @coordinates = []
-    @neigbors = []
+    @neighbors = []
+  end
+
+  def get_neighbors
+  end
+
+  def overpop
+  end
+
+  def underpop
   end
 end
