@@ -15,6 +15,10 @@ class Cell
   end
 
   def get_neighbors
+    neighbor_finder = [
+    [-1, -1], [-1, 0], [-1, 1],
+    [0, -1], [0, 0], [0, 1],
+    [1, -1], [1, 0], [1, 1]]
   end
 
   def overpop
